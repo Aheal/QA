@@ -1,6 +1,5 @@
 package com.mayab.calidad.doubles;
 
-import com.mayab.calidad.*;
 
 import org.hamcrest.junit.ExpectedException;
 import org.junit.Before;
@@ -8,16 +7,13 @@ import org.junit.Rule;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.Mock;
-import org.mockito.invocation.Invocation;
 import org.mockito.invocation.InvocationOnMock;
-import org.mockito.*;
 import org.mockito.runners.MockitoJUnitRunner;
 import org.mockito.stubbing.Answer;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.is;
 import static org.hamcrest.Matchers.nullValue;
-import static org.junit.Assert.fail;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 import static org.mockito.Matchers.anyInt;
